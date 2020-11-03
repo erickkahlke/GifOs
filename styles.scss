@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    height: 95px;
+    .navline {
+        height: 5px;
+        background: #572EE5;
+    }
+
+}
+.search {
+    margin: 0 auto;
+}
+
+.header-img-ctn {
+    img {
+        height: 130px;
+        width: 273px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.title-container {
+    height: 99px;
+    width: 286px;
+    margin: 7px auto 33px;
+    h1 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 25px;
+    color: #572EE5;
+    text-align: center;
+    line-height: 33px;  
+    span {
+        color: #50E3C2;
+    }    
+    }
+}
+
+.search-container {
+    width: 95%;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #572EE5;
+    border-radius: 27px;
+    border-radius: 27px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    input {
+        border: none;
+        font-family: Roboto;
+        font-size: 16px;
+        color: #000000;
+        text-align: left;
+        width: 215px;
+        height: 22px;
+        margin: 15px auto 13px;
+    }
+    img {
+        width: 20px;
+        height: 20px;
+        margin: 15px 20px 15px auto;
+        // display: block;
+    }
+}
+
+.trends {
+    background-color: #F3F5F8;
+    height: 430px;
+    padding-top: 46px;
+    h2 {
+        font-family: Montserrat;
+        font-weight: 600;
+        font-size: 20px;
+        color: #572EE5;
+        text-align: center;
+        line-height: 30px;
+    }
+    p {
+        font-family: Roboto;
+        font-size: 16px;
+        color: #000000;
+        text-align: center;
+        line-height: 23px;
+    }
+    .trend-gif-ctn {
+        // display: flex;
+        // flex-flow: row nowrap;
+
+        display: grid;
+        grid-template-columns: 243px 243px 243px 243px 243px;
+        grid-template-rows: 58vw;
+        column-gap: 20px;
+        padding: 32px 10px 0;
+        
+        box-sizing: border-box;
+        width: 100%;
+        overflow: scroll;
+        .gif-card {
+            position: relative;
+            width: 100%;
+            margin: 0;
+            box-sizing: border-box;
+            .gif-trend {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 243px;
+                height: 187px;
+                margin: 0;
+                z-index: 3;
+            }
+        }
+    }
+}
