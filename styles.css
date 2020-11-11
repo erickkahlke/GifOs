@@ -13,6 +13,19 @@
   background: #572EE5;
 }
 
+.navbar .logo {
+  width: 48.8px;
+  height: 48.8px;
+  margin-top: 29px;
+  margin-left: 22px;
+}
+
+.navbar .burger-button {
+  width: 15px;
+  height: 14px;
+  margin-right: 12px;
+}
+
 .search {
   margin: 0 auto;
 }

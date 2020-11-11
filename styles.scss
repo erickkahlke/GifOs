@@ -10,8 +10,20 @@
         height: 5px;
         background: #572EE5;
     }
-
-}
+    .logo {
+        width: 48.8px;
+        height: 48.8px;
+        margin-top: 29px;
+        margin-left: 22px;
+        display: block;
+    }
+    .burger-button {
+        width: 15px;
+        height: 1400px;
+        // margin-right: 0px;
+        // margin-top: 47px;
+        display: block;
+    }
 .search {
     margin: 0 auto;
 }
@@ -111,7 +123,7 @@
                 position: absolute;
                 top: 0;
                 left: 0;
-                width: 243px;
+                width: 343px;
                 height: 187px;
                 margin: 0;
                 z-index: 3;
