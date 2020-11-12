@@ -1,0 +1,55 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 53.21 48.79">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #5ed7c6;
+      }
+
+      .cls-3 {
+        mask: url(#mask);
+      }
+
+      .cls-4, .cls-5 {
+        isolation: isolate;
+      }
+
+      .cls-5 {
+        font-size: 16px;
+        fill: #572ee5;
+        font-family: Roboto-Bold, Roboto;
+        font-weight: 700;
+      }
+    </style>
+    <mask id="mask" x="7.84" y="16.94" width="47.69" height="23.39" maskUnits="userSpaceOnUse">
+      <g transform="translate(0 0)">
+        <g id="mask-2">
+          <polygon id="path-1" class="cls-1" points="7.84 16.94 55.53 16.94 55.53 36.46 7.84 36.46 7.84 16.94"/>
+        </g>
+      </g>
+    </mask>
+  </defs>
+  <g id="GIFOS">
+    <g id="_00-UI-Kit" data-name="00-UI-Kit">
+      <g id="logo-mobile">
+        <g id="Group-5">
+          <polygon id="Fill-1" class="cls-2" points="0 0 0 48.79 48.79 48.79 48.79 38.34 45.31 38.34 45.31 45.31 3.48 45.31 3.48 3.48 34.85 3.48 34.85 13.94 45.31 13.94 45.31 20.91 48.79 20.91 48.79 10.46 38.34 0 0 0"/>
+          <g id="Group-4">
+            <g class="cls-3">
+              <g id="GIFOS-2" data-name="GIFOS" class="cls-4">
+                <text class="cls-5" transform="translate(8 36)">GIFOS</text>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
